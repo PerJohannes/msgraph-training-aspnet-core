@@ -70,7 +70,7 @@ namespace GraphTutorial
             {
                 // Add the default profile photo
                 identity.AddClaim(
-                    new Claim(GraphClaimTypes.Photo, "/img/no-profile-photo.png"));
+                    new Claim(GraphClaimTypes.Photo, "/img/no-profile-photo.jpg"));
                 return;
             }
 
